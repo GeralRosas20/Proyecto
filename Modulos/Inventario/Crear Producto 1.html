@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/styles.css">
+	<title>Crear Producto</title>
+
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> 
+</head>
+<body>
+	<form action="" class="form-register">
+		<h1 class="form-title">Crear Producto</h1>
+		<div class="container-flex">
+			<label for="" class="form-label">Nombre</label>
+			<input type="text" class="form-input" required="">
+		</div>
+		<div class="container-flex">
+			<label for="" class="form-label">Código del producto</label>
+			<input type="numer" class="form-input" required="" min="1">
+		</div>
+		<div class="container-flex">
+			<label for="" class="form-label">Categoria</label>
+			<select name="" id="" class="form-input">
+				<option value="">Papelería</option>
+			    <option value="">Dulceria</option>
+			    <option value="">Bisutería</option>
+			</select><br>
+		</div>
+		<div class="container-flex">
+			<label for="" class="form-label">Cantidad</label>
+			<input type="number" class="form-input" min="1" required="">
+		</div>
+		<div class="container-flex">
+			<label for="" class="form-label">Marca</label>
+			<input type="text" class="form-input">
+		</div>
+		<div class="container-flex">
+			<label for="" class="form-label">Precio</label>
+			<input type="text" class="form-input" required="" placeholder="$">
+		</div>
+		<div class="container-flex">
+			<label for="" class="form-label">Proveedor</label>
+			<input type="number" class="form-input">
+		</div>
+
+		<div class="container-flex">
+		<label class="form-label" for="">Fecha Creación</label>
+		<input class="form-control form-input"type="date">
+	    </div>
+
+	    <div class="container-flex">
+		<label for="" class="title">Estado</label>
+	    <input class="form-control" type="radio" name="Habilitacion">
+	    <label for="habilitado" class="estados">Habilitar</label>
+
+	    <input class="form-control" type="radio" name="Habilitacion">
+	    <label for="Deshabilitar" class="estados">Deshabilitar</label>
+	    </div>
+
+		<div class="container-flex">
+			<label for="" class="form-label">Descripción</label>
+			<textarea class="form-input" cols="300" id="" maxlength="500" placeholder="Descripción del producto" rows="" required=""></textarea>
+		</div>
+		<br>
+		<div id="div_file" >
+        <p id="texto">Foto Producto</p>
+        <br>
+  		<input id="bton" type="file">
+        </div>
+		<br><br>
+		<button onclick="enviar()" class="form-submit">Guardar Producto</button> 
+	</form>
+
+
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> 
+	<script src="../../js/CodigoEnviar.js"></script> 
+
+	
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Formulario de cotización</title>
+</head>
+<body>
+	<div class="body">
+		<section class="form-sale">
+	
+   		<h2>Registro de Cotización</h2>
+   		<h4>Datos personales</h4>
+
+   	    <div class="grid">
+   		<div class="input-control">
+   			<label for="nombreV">Nombre</label>
+   		<input class="controls" type="text" name="nombre" id="NombresV" >
+   		</div>
+   		<div class="input-control">
+   			<label for="nombreV">Apellidos</label>
+   		<input class="controls" type="text" name="apellidos" id="ApellidosV">
+   		</div>
+   		<div lass="input-control">
+   			<label for="idv">Tipo de documento</label>
+
+   		<select class="controls">
+   			<option value="idv">seleccione...</option>
+   			<option value="idv">Cédula de ciudadanía</option>
+   		<option value="idv">NIT</option>
+   		<option value="idv">Cédula de ciudadanía</option>
+   	    </select>
+   		</div>
+   		
+
+   		<div class="input-control">
+   			<label for="idV">No. de documento</label>
+   		    <input class="controls" type="number">
+   		
+   		</div>
+   	    <div class="input-control">
+   	    	<label for="nombreV">Telefono/Móvil</label>
+   		    <input class="controls" type="number" id="TelefonoV">
+   		
+   	    </div>
+   		<div class="input-control">
+   			<label for="FechaC">Fecha estimada para la entrega</label>
+   		    <input  class="fechaC"type="date">
+   		
+   		</div>
+   		
+
+   		<label for="descriptionP" id="descrip">Detalles de la cotización</label>
+   		<textarea  class="descripcionP"name="descriptionP" maxlength="200" minlength="5" rows="10"></textarea>
+
+   	    </div>
+   		
+   		
+   		<input class="botons" type="submit" value="Enviar cotización">
+
+	</div>
+	
+	
+</body>
+</html>

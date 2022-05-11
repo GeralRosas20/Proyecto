@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/styles.css">
+
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	<title>Modificar Producto</title>
+</head>
+<body>
+	<form action="" class="form-register">
+		<h1 class="form-title">Solicitar cotización</h1>
+		<div class="container-flex">
+			<label for="" class="form-label">Nombre</label>
+			<input type="text" class="form-input" required="">
+		</div>
+		<div class="container-flex">
+			<label for="" class="form-label">Apellidos</label>
+			<input type="numer" class="form-input" required="" min="1">
+		</div>
+		<div class="container-flex">
+			<label for="" class="form-label">Correo</label>
+			<input type="email" class="form-input">
+		</div>
+
+		<div class="container-flex">
+			<label for="" class="form-label">Tipo de documento</label>
+			<select name="" id="" class="form-input">
+				<option value="">C.C</option>
+			    <option value="">T.I</option>
+			    <option value="">C.E</option>
+			</select><br>
+		</div>
+
+		<div class="container-flex">
+			<label for="" class="form-label">Numero de identificación</label>
+			<input type="text" class="form-input">
+		</div>
+
+		<div class="container-flex">
+			<label for="" class="form-label">Telefono</label>
+			<input type="text" class="form-input">
+		</div>
+
+		<div class="container-flex">
+			<label for="" class="form-label">Direccion de residencia</label>
+			<input type="text" class="form-input">
+		</div>
+
+		<div class="container-flex">
+			<label for="" class="form-label">Fecha de solicitud</label>
+			<input type="date" class="form-input">
+		</div>
+
+		<div class="container-flex">
+			<label for="" class="form-label">Categoria</label>			
+			<select name="" id="" class="form-input">
+				<option value="">Papelería</option>
+			    <option value="">Dulceria</option>
+			    <option value="">Bisutería</option>
+			</select><br>
+		</div>
+
+		<div class="container-flex">
+			<label for="" class="form-label">Cantidad</label>
+			<input type="number" class="form-input">
+		</div>
+
+		<div class="container-flex">
+			<label for="" class="form-label">Detalles de la cotización</label>
+			<input type="numer" class="form-input">
+		</div>
+		
+		<br>
+		<input type="submit" class="form-submit" value="Agregar mas productos" style="background: #c1c1c1;color: black;">	
+		<br><br>
+		<button type="submit" class="form-submit" onclick="cotizacion()">Enviar solicitud</button>
+	</form>
+
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> 
+	<script src="../../../js/CodigoEnviar.js"></script>
+	
+</body>
+</html>

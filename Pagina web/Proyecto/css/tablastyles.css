@@ -1,0 +1,25 @@
+header{
+	background: #8E2DE2;
+	background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
+	background: linear-gradient(to right, #4A00E0, #8E2DE2);
+}
+
+table th {
+	background-color: #337ab7 !important;
+	color: white;
+}
+
+table>tbody>tr>td {
+	vertical-align: middle !important;
+}
+
+.btn-group, .btn-group-vertical{
+	margin-top: 550px;
+	margin-bottom: 20px;
+	margin-right: 150px;
+
+
+	height: 50px;
+	width: 30px;
+	position: absolute; !important;
+}

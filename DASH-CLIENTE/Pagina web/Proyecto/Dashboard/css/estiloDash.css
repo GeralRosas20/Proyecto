@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@200&family=Comfortaa:wght@500&family=Quicksand:wght@500;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header{
+	display: flex; /*todo se ubica en columnas*/
+	background: black;
+	justify-content: space-between; /*alienacion horizontal*/
+	align-items:center ; /*alienacion vertical*/
+	padding: 5px 25px;
+	font-family: 'Archivo', sans-serif;
+}
+
+.logosistema img{
+	width: 15%;
+}
+
+
+main{
+	display: flex;
+}
+
+nav{
+	font-family: 'Archivo', sans-serif;
+	background: #020000;
+	width: 18%;
+}
+
+nav ul{
+	list-style: none;
+	padding: 0;
+
+}
+
+nav ul li a{
+	text-decoration: none;
+	padding: 6px 25px;
+	display: block;
+	color: white;
+}
+
+nav ul li a:hover{
+	background: #edf6f9;
+	color: #000;
+}
+
+nav h3{
+	padding: 20px 25px;
+	color: whitesmoke;
+}
+
+li i{
+	padding-right: 4px;
+}
+
+
+.infousuario{
+	text-align: center;
+	color: whitesmoke;
+	padding: 20px 0;
+}
+/*
+.infousuario i{
+	font-size: 60px;
+	color: whitesmoke;
+}
+
+.infousuario h4{
+	padding-top: 10px;
+}
+*/
+.infousuario img{
+	width: 25%;
+	border-radius: 50%;
+	border: 3px solid whitesmoke;
+}
+
+.roles a{
+	text-decoration: none;
+	color: whitesmoke;
+	font-weight: bolder;
+	padding: 0 30px;
+}
+
+.cerrar a i{
+	font-size: 30px;
+	color: whitesmoke;
+}
+
+/*estilos pagina prin*/
+
+section{
+	background-color: #f1f1f1;
+	font-family: 'Quicksand', sans-serif;
+	width: 100%;
+}
+
+.contPrincipal{
+	display: flex;
+	margin: 30px auto;
+}
+
+.col{
+	display: flex;
+	background: lightgray;
+	margin: 10px 30px;
+	padding: 20px;
+	border-radius: 6px;
+	align-items: center;
+}
+
+.img i{
+	font-size: 70px;
+}
+
+
+.colorA{
+	color: #bee1e6;
+}
+
+.colorB{
+	color: #d4a373;
+}
+
+.colorC{
+	color: #006d77;
+}
+
+.borderA{
+	border-bottom: 3px solid #bee1e6;
+}
+
+.borderB{
+	border-bottom: 3px solid #d4a373;
+}
+
+.borderC{
+	border-bottom: 3px solid #006d77;
+}
+
+iframe{
+	width: 100%;
+	height: 100%;
+}
+

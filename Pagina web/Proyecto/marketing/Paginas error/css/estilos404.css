@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Questrial&display=swap');
+
+*{
+	font-family: 'Chakra Petch', sans-serif;
+}
+
+body{
+	background: #f1f1f1;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+img{
+	width: 80%;
+	padding-top: 10px;
+}
+
+h1{
+	padding-top: 10px;
+	font-size: 50px;
+	font-weight: bolder;
+}
+
+h2{
+	font-size: 30px;
+}
+
+button{
+	padding: 15px 30px;
+	background-color: #229cff;
+	border: none;
+	border-radius: 4px;
+	color: white;
+	font-weight: bolder;
+	font-size: 15px;
+}
+
+.container{
+	display: block;
+	gap: 30px;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	align-content: center;
+	height: 100%;
+}
+

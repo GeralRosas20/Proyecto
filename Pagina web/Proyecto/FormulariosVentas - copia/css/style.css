@@ -1,0 +1,118 @@
+.body {
+border-radius: 4px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.botons {
+	padding: 10px 40px;
+	text-align: center;
+	background-color: #2ea44f;
+	font-size: 16px;
+	font-weight: bolder;
+	border: none;
+	color: white;
+	-webkit-border-radius: 6px;
+	-webkit-box-shadow: 0px 3px 0px #247f39;
+}
+
+.form-sale h4{
+	text-align: center;
+}
+
+.form-sale h2{
+	text-align: center;
+}
+
+
+.form-sale{
+	background: #f1f1f1;
+    padding: 5px 0px;
+    margin: 0 10%;
+    border: 1px solid black;
+    border-radius: 6px;
+    font-size: 18px;
+	margin-bottom: 7px;
+}
+
+
+
+
+.controls{
+	width: 70%;
+	background: #f1f1f1;
+	padding: 6px;
+	border-radius: 4px;
+	border: 1px solid;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	margin-left: 0 14%;
+}
+
+
+.form-sale .botons{
+	width: 50%;
+	background: #2ea44f;
+	padding: 8px 40px;
+	color: white;
+	margin: 20px 0;
+	font-size: 16px;
+	font-weight: bolder;
+	border: none;
+	text-align: center;
+}
+.botons:hover{
+	opacity: 80%;
+	cursor: pointer;
+}
+textarea {
+    position: relative; 
+    width: 300px; 
+    resize: none;
+    padding: 20px;
+}
+.descripcionP{
+    width: auto;
+    height: auto;
+}
+
+#descrip {
+    display: block;
+}
+.fechaC{
+	width: 30%;
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 16px;
+	border: 1px solid;
+	background: #f1f1f1;
+	font-family: 'Roboto', sans-serif;
+}
+.input-control {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 14%;
+}
+
+.input-control > label {
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.input-control > input {
+  text-align: left;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.grid > div.input-control {
+  margin-right: 5px;
+}
+
+

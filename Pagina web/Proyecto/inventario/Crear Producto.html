@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" href="css/all.min.css">
+	<title>Crear Producto</title>
+</head>
+<body>
+	<!--formulario de crear producto-->
+
+	<div class="contFormulario">
+		<form action="">
+		<h2>Crear Producto</h2>
+
+		<label for="nombreP">Nombre:</label>
+		<input class="file" type="text" id=nombreP required="">
+
+		<label for="codigP">Codigo del producto:</label>
+		<input class="file" type="numer">
+
+        <br><br>
+		<label for="categoriaP">Categoria:</label>
+		<select class="file" name="categoriaP" id="categoriaP" required="">
+		<option value="seleccione">Seleccione</option>
+		<option value="papeleria">Papelería</option>
+		<option value="dulceria">Dulceria</option>
+		<option value="bisuteria">Bisutería</option>
+		</select>
+
+		<label for="cantidad">Cantidad:</label>
+		<input class="file" type="number" min="1" required="">
+
+        <br><br>
+		<label for="marcaP">Marca:</label>
+		<input class="file" type="text" id="marcaP">
+
+        <br><br>
+		<label for="precioP">Precio:</label>
+		<input class="file" type="text" id="precioP" required="" placeholder="$">
+        
+        
+		<label for="proveedorP">Proveedor:</label>
+		<input class="file" type="text" id="proveedorP" required="">
+        
+        <br><br>
+		<label for="celProveedor">Contacto Proveedor:</label>
+		<input class="file" type="number" id="celProveedor">
+        
+        
+		<label for="Fcreacion">Fecha Creación</label>
+		<input class="file"type="date" id="Fcreacion">
+         
+        <br><br>
+		<label for="Habilitacion">Estado:</label>
+	    <input class="file" type="radio" name="Habilitacion">
+	    <label for="habilitado">Habilitar</label>
+
+	    <input class="file" type="radio" name="Habilitacion">
+	    <label for="Deshabilitar">Deshabilitar</label>
+
+        <br><br>
+		<label for="descripcionP" id="descrip">Descripción:</label>
+		<textarea class="descripcionP" maxlength="200" minlength="5" rows="4"></textarea>
+
+       
+        <br><br>
+        <div id="div_file">
+        <p id="texto">Foto Producto</p>
+  		<input id="bton" type="file">
+        </div>
+		
+
+	    <br><br>
+		<input class="guardarP" type="submit" value="Guardar Producto">
+		</form>
+
+	</div>
+	
+</body>
+</html>

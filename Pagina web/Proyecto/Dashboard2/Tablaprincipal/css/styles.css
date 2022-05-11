@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+
+
+table{
+	width: 100%;
+	text-align: center;
+	border-collapse: collapse;
+	font-family: 'Barlow', sans-serif;
+}
+
+th, td{
+	
+	padding: 10px;
+}
+
+thead {
+	background-color: #455060;
+	color: whitesmoke;
+}
+
+tr:nth-child(even){
+	background-color: #ddd;
+}
+
+tr:hover{
+	background-color: #455060;
+	cursor: pointer;
+	color: whitesmoke;
+}

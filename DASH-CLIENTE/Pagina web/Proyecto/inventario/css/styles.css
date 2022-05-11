@@ -1,0 +1,87 @@
+
+body {
+	border-radius: 4px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+textarea {
+    position: relative; 
+    width: 300px;
+    height: 60px; 
+    resize: none;
+    padding: 15px;
+}
+
+p#texto{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}
+
+div#div_file{
+    padding: 5px 0;
+    background-color: #2499e3;
+    width: 25vh;
+    position: relative;
+    -webkit-border-radius: 6px;
+    -webkit-box-shadow: 0px 3px 0px #1a71a9;
+    margin: 0px 315px;
+}
+
+input#bton{
+    position: absolute;
+    width: 50%;
+    height: 60%;
+    bottom: 0;
+    opacity: 0%;
+}
+#div_file:hover{
+    opacity: 80%;
+    cursor: pointer;
+}
+
+.guardarP{
+    padding: 8px 40px;
+    text-align: center;
+    background-color: #2ea44f;
+    font-size: 16px;
+    font-weight: bolder;
+    border: none;
+    color: white;
+    -webkit-border-radius: 6px;
+    -webkit-box-shadow: 0px 3px 0px #247f39;
+}
+
+.guardarP:hover{
+    opacity: 80%;
+    cursor: pointer;
+}
+.contFormulario{
+    background: #f1f1f1;
+    padding: 15px 20px;
+    margin: 0 17.2%;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+.descripcionP{
+    width: auto;
+    height: auto;
+}
+
+#descrip {
+    display: block;
+}
+
+.file {
+    padding: 10px 80px 10px 6px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+#div_file:hover{
+    opacity: 80%;
+
+}
+

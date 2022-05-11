@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" href="css/all.min.css">
+	<title>Modificar Producto</title>
+</head>
+<body>
+	<!--formulario de crear producto-->
+
+	<div class="contFormulario">
+		<form action="">
+		<h2>Modificar Producto</h2>
+
+		<label for="nombreP">Nombre:</label>
+		<input class="file" type="text" id=nombreP required="">
+
+		<label for="codigP">Codigo del producto:</label>
+		<input class="file" type="numer">
+
+        <br><br>
+		<label for="categoriaP">Categoria:</label>
+		<select class="file" name="categoriaP" id="categoriaP" required="">
+		<option value="seleccione">Seleccione</option>
+		<option value="papeleria">Papelería</option>
+		<option value="dulceria">Dulceria</option>
+		<option value="bisuteria">Bisutería</option>
+		</select>
+
+		<label for="marcaP">Marca:</label>
+		<input class="file" type="text" id="marcaP">
+        
+        <br><br>
+		<label for="precioP">Precio:</label>
+		<input class="file"type="text" id="precioP" required="" placeholder="$">
+
+        <br><br>
+		<label for="proveedorP">Proveedor:</label>
+		<input class="file" type="text" id="proveedorP" required="">
+        
+		<label for="celProveedor">Contacto Proveedor:</label>
+		<input class="file" type="number" id="celProveedor">
+        
+        <br><br>
+		<label for="descripcionP">Descripción:</label>
+		<textarea class="descripcionP"></textarea>
+
+		<br><br>
+		<label for="Habilitacion">Estado:</label>
+	    <input class="file"type="radio" name="Habilitacion">
+	    <label for="habilitado">Habilitar</label>
+
+	    <input class="file" type="radio" name="Habilitacion">
+	    <label for="Deshabilitar">Deshabilitar</label>
+
+        <br><br>
+        <div id="div_file">
+		<p id="texto">Foto Producto</p>
+	    </div>
+
+        
+        <br><br>
+		<input class="guardarP" type="submit" value="Guardar modificaciones">
+		</form>
+
+	</div>
+	
+</body>
+</html>
